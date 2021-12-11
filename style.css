@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+
+.body{
+    background-image: url(backgroundimage2.jpg);
+    color: white;
+}
+
+.mynavbar{
+    background-color: black;/*#201E00*/
+    color: gold;
+    height: 3rem;
+    padding-top: .5rem;
+    padding-left: .5rem;
+    font-family: 'Smooch', cursive;
+    font-size: 2rem;
+}
+
+.maindiv{
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.headder{
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+    color: whitesmoke;
+}
+
+.text_areadiv{
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+.text_area{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.convert{
+    border-radius: 50px 50px 50px 50px;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.selectvoices{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.selector{
+    font-family: 'Dancing Script', cursive;
+}
+
+.footermain{
+    text-align: center;
+    margin-top: 2.5rem;
+    font-family: 'Source Code Pro', monospace;
+    background-color: #2e2e2e;
+    height: 5rem;
+    padding-top: 0.8rem;
+    color: white;
+}
+
+.copyright{
+    padding-top: 0.5rem;
+}
+
+.len{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+}
+
+.num{
+    font-family: 'Smooch', cursive;
+    font-size: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* <img src="https://img.icons8.com/nolan/64/voice-memos.png"/> */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+.trans{
+    color: azure;
+    background-color: #ffffff10;
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+}
+
+.textcenter{
+    text-align: center;
+}
+
+.stylishborder{
+    border-radius: 20px 40px 40px 90px;
+}
+
+.ambient{
+    background: linear-gradient(#616060, #fa2b2b);
+}
+
+.glow{
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #000003);
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+    0%,18%,20%,50.1%,60%,80%,90.1%,92%
+    {
+        color: blue;
+        box-shadow: none;
+    }
+    18.1%,20.1%,30%,50.1%,60.1%,65%,80.1%,90%,92%,1%,100%
+    {
+        color: white;
+        text-shadow: 0 0 10px #03bcf4
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 150px #03bcf4;
+    }
+}
+
+.colourfulbgcolor6{
+    background: linear-gradient(#5f2c82,#49a09d);
+}
+
+.colourfulbgcolor1{
+    background: linear-gradient(#C04848,#480048);
+    color: azure;
+}
+
+.colourfulbgcolor2{
+    background: linear-gradient(#e43a15,#e65245);
+    color: azure;
+}
+
+.colourfulbgcolor3{
+    background: linear-gradient(#FC354C,#0ABFBC);
+    color: black;
+    font-size: large;
+}
+
+.colourfulbgcolor4{
+    background: linear-gradient(#f857a6,#ff5858);
+    color: black;
+    font-size: large;
+}
+
+.colourfulbgcolor5{
+    background: linear-gradient(#c21500,#ffc500);
+    color: black;
+    font-size: large;
+}
+
+.colourfulbgcolor{
+    background: linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+    color: black;
+    font-size: large;
+}
+
+.GradientBorder {
+
+    /*font-size: 1em;*/
+    color: #fff;
+    /*text-align: center;*/
+    letter-spacing: 0.5px;
+    background: #020117;
+  }
+  .GradientBorder::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+    z-index: -1;
+  }
+.GradientBorder::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, #ffd800, #ff5520, #750cf2, #0cbcf2);
+    z-index: -2;
+    filter: blur(90px);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.NeonLightText {
+  position: relative;
+  font-size: 1em;
+  color: #fff;
+  letter-spacing: 1.5px;
+  text-shadow: 0 0 20px #f000ff;
+}
+.NeonLightText::after {
+  content: 'Neon Light Text';
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #f000ff;
+  filter: blur(15px);
+  z-index: -1;
+}
+.NeonLightText::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /*background: #f000ff; for back color*/
+  opacity: .5;
+  filter: blur(10px);
+  z-index: -2;
+}
+
+.hoverborder{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.hoverborder:hover{
+    rotate: 90deg;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
